@@ -67,9 +67,9 @@ class Base:
         self.box1.pack_start(separator, True, True, 0)
         self.box1.pack_start(label2, True, True, 0)
         
-        box3.pack_start(self.button1, True, False, 0)
-        box3.pack_start(self.button2, True, False, 0)
-        box3.pack_start(self.button3, True, False, 0)
+        #box3.pack_start(self.button1, True, False, 0)
+        #box3.pack_start(self.button2, True, False, 0)
+        #box3.pack_start(self.button3, True, False, 0)
         box3.pack_start(self.button4, True, False, 0)
         # You can't add buttons that have already been packed
         
