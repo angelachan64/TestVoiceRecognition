@@ -27,7 +27,8 @@ class Base:
         self.window.set_border_width(100)
 
         # making a box to pack widgets into
-        self.box1 = gtk.HBox(False, 0)
+        #self.box1 = gtk.HBox(False, 0)
+        self.box1 = gtk.VBox(False, 0)
 
         # making the buttons
         self.button1 = gtk.Button("Button 1")
