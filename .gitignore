@@ -1,1 +1,5 @@
+# Emacs trash files
 *~
+
+# compiled python files
+*.pyc
