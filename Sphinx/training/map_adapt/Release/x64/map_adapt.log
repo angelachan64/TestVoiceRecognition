@@ -1,0 +1,5 @@
+﻿  cmd_ln.c
+  main.c
+..\..\..\src\programs\map_adapt\main.c(511): warning C4013: 's3ts2cb_read' undefined; assuming extern returning int
+  Generating Code...
+  map_adapt.vcxproj -> C:\Sphinx\sphinxtrain\win32\programs\map_adapt\.\..\..\..\bin\Release\x64\map_adapt.exe
