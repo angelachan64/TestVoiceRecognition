@@ -1,0 +1,5 @@
+﻿  continuous.c
+c:\sphinx\pocketsphinx\src\programs\continuous.c(110): warning C4244: '=': conversion from 'float64' to 'float', possible loss of data
+c:\sphinx\pocketsphinx\src\programs\continuous.c(175): warning C4267: '=': conversion from 'size_t' to 'int32', possible loss of data
+  pocketsphinx_continuous.vcxproj -> C:\Sphinx\pocketsphinx\\bin\Debug\x64\pocketsphinx_continuous.exe
+  pocketsphinx_continuous.vcxproj -> C:\Sphinx\pocketsphinx\\bin\Debug\x64/pocketsphinx_continuous.pdb (Full PDB)

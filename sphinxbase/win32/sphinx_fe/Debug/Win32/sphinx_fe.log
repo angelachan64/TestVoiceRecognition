@@ -1,5 +1,0 @@
-﻿  sphinx_fe.c
-c:\users\angela\documents\github\testvoicerecognition\sphinxbase\src\sphinx_fe\sphinx_fe.c(184): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\angela\documents\github\testvoicerecognition\sphinxbase\src\sphinx_fe\sphinx_fe.c(394): warning C4018: '<': signed/unsigned mismatch
-  sphinx_fe.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\sphinxbase\\bin\Debug\Win32\sphinx_fe.exe
-  sphinx_fe.vcxproj -> .\../../bin/Debug/Win32/sphinx_fe.pdb (Full PDB)

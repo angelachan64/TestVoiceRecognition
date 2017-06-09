@@ -1,0 +1,4 @@
+﻿  sphinx_fe.c
+..\..\src\sphinx_fe\sphinx_fe.c(187): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\src\sphinx_fe\sphinx_fe.c(398): warning C4018: '<': signed/unsigned mismatch
+  sphinx_fe.vcxproj -> C:\Sphinx\sphinxbase\\bin\Release\Win32\sphinx_fe.exe
