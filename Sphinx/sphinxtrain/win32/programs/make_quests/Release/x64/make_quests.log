@@ -1,0 +1,19 @@
+﻿  main.c
+..\..\..\src\programs\make_quests\main.c(128): warning C4244: '=': conversion from 'double' to 'float32', possible loss of data
+..\..\..\src\programs\make_quests\main.c(139): warning C4244: '+=': conversion from 'double' to 'float32', possible loss of data
+..\..\..\src\programs\make_quests\main.c(144): warning C4244: '-=': conversion from 'double' to 'float32', possible loss of data
+..\..\..\src\programs\make_quests\main.c(172): warning C4305: '=': truncation from 'double' to 'float32'
+..\..\..\src\programs\make_quests\main.c(260): warning C4305: '=': truncation from 'double' to 'float32'
+..\..\..\src\programs\make_quests\main.c(729): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\programs\make_quests\main.c(930): warning C4244: '/=': conversion from 'float64' to 'float32', possible loss of data
+..\..\..\src\programs\make_quests\main.c(931): warning C4244: '=': conversion from 'float64' to 'float32', possible loss of data
+..\..\..\src\programs\make_quests\main.c(943): warning C4244: '=': conversion from 'float64' to 'float32', possible loss of data
+..\..\..\src\programs\make_quests\main.c(969): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\programs\make_quests\main.c(1068): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\programs\make_quests\main.c(1071): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\programs\make_quests\main.c(1078): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\programs\make_quests\main.c(1080): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\programs\make_quests\main.c(1081): warning C4018: '<': signed/unsigned mismatch
+  parse_cmd_ln.c
+  Generating Code...
+  make_quests.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\programs\make_quests\.\..\..\..\bin\Release\x64\make_quests.exe

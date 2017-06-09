@@ -1,0 +1,6 @@
+﻿  parse_cmd_ln.c
+  main.c
+  Generating Code...
+main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  kdtree.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\programs\kdtree\.\..\..\..\bin\Debug\Win32\kdtree.exe
+  kdtree.vcxproj -> .\..\..\..\bin\Debug\Win32/kdtree.pdb (Full PDB)

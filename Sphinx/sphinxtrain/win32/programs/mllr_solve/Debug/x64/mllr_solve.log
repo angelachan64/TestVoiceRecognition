@@ -1,0 +1,11 @@
+﻿  parse_cmd_ln.c
+  main.c
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mllr_solve\main.c(195): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mllr_solve\main.c(198): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mllr_solve\main.c(236): warning C4018: '<': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mllr_solve\main.c(240): warning C4018: '<': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mllr_solve\main.c(242): warning C4018: '<': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mllr_solve\main.c(269): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  mllr_solve.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\programs\mllr_solve\.\..\..\..\bin\Debug\x64\mllr_solve.exe
+  mllr_solve.vcxproj -> .\..\..\..\bin\Debug\x64/mllr_solve.pdb (Full PDB)

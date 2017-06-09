@@ -1,0 +1,5 @@
+﻿  main.c
+..\..\..\src\programs\mk_flat\main.c(137): warning C4244: '=': conversion from 'double' to 'float32', possible loss of data
+  parse_cmd_ln.c
+  Generating Code...
+  mk_flat.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\programs\mk_flat\.\..\..\..\bin\Release\Win32\mk_flat.exe

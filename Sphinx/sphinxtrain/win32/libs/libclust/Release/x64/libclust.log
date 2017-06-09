@@ -1,0 +1,38 @@
+﻿  div.c
+  kdtree.c
+..\..\..\src\libs\libclust\kdtree.c(82): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\libs\libclust\kdtree.c(85): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\libs\libclust\kdtree.c(86): warning C4244: '+=': conversion from 'double' to 'float32', possible loss of data
+..\..\..\src\libs\libclust\kdtree.c(87): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\libs\libclust\kdtree.c(89): warning C4244: '=': conversion from 'double' to 'float32', possible loss of data
+..\..\..\src\libs\libclust\kdtree.c(93): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\libs\libclust\kdtree.c(94): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\libs\libclust\kdtree.c(96): warning C4244: '=': conversion from 'double' to 'float32', possible loss of data
+..\..\..\src\libs\libclust\kdtree.c(104): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\libs\libclust\kdtree.c(106): warning C4305: '=': truncation from 'double' to 'float'
+..\..\..\src\libs\libclust\kdtree.c(107): warning C4056: overflow in floating-point constant arithmetic
+..\..\..\src\libs\libclust\kdtree.c(110): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\libs\libclust\kdtree.c(111): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\libs\libclust\kdtree.c(83): warning C4244: 'initializing': conversion from 'double' to 'float32', possible loss of data
+..\..\..\src\libs\libclust\kdtree.c(144): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\libs\libclust\kdtree.c(148): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\libs\libclust\kdtree.c(154): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\libs\libclust\kdtree.c(155): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\libs\libclust\kdtree.c(173): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\libs\libclust\kdtree.c(184): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\libs\libclust\kdtree.c(189): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\libs\libclust\kdtree.c(217): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\libs\libclust\kdtree.c(303): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\libs\libclust\kdtree.c(312): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\libs\libclust\kdtree.c(314): warning C4018: '<': signed/unsigned mismatch
+  kmeans.c
+..\..\..\src\libs\libclust\kmeans.c(95): warning C4244: '=': conversion from 'float64' to 'float32', possible loss of data
+..\..\..\src\libs\libclust\kmeans.c(107): warning C4244: '=': conversion from 'float64' to 'float32', possible loss of data
+..\..\..\src\libs\libclust\kmeans.c(148): warning C4244: '=': conversion from 'float64' to 'float32', possible loss of data
+..\..\..\src\libs\libclust\kmeans.c(164): warning C4244: '=': conversion from 'float64' to 'float32', possible loss of data
+..\..\..\src\libs\libclust\kmeans.c(611): warning C4244: '=': conversion from 'float64' to 'float32', possible loss of data
+..\..\..\src\libs\libclust\kmeans.c(621): warning C4244: '=': conversion from 'float64' to 'float32', possible loss of data
+  metric.c
+  Generating Code...
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\libs\libclust\kdtree.c(107): warning C4756: overflow in constant arithmetic
+  libclust.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\libs\libclust\.\..\..\..\lib\Release\x64\libclust.lib

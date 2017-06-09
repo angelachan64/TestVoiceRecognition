@@ -1,0 +1,29 @@
+﻿  parse_cmd_ln.c
+  main.c
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(262): warning C4013: 'bio_fread' undefined; assuming extern returning int
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(453): warning C4244: '=': conversion from 'double' to 'mfcc_t', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(458): warning C4244: '=': conversion from 'double' to 'mfcc_t', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(586): warning C4244: '=': conversion from 'double' to 'float32', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(587): warning C4244: '=': conversion from 'float32' to 'uint32', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(644): warning C4244: 'return': conversion from 'float64' to 'float32', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(923): warning C4244: '+=': conversion from 'float64' to 'float', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(930): warning C4244: '*=': conversion from 'float64' to 'float', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(983): warning C4244: '*=': conversion from 'float64' to 'float', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(1085): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(1106): warning C4244: 'function': conversion from 'float64' to 'float32', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(1117): warning C4244: '+=': conversion from 'float64' to 'float32', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(1119): warning C4244: '+=': conversion from 'float64' to 'float', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(1124): warning C4244: '=': conversion from 'double' to 'float32', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(1126): warning C4244: '=': conversion from 'double' to 'float32', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(1158): warning C4244: 'function': conversion from 'float64' to 'float32', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(1173): warning C4244: '+=': conversion from 'float64' to 'float32', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(1175): warning C4244: '+=': conversion from 'float64' to 'float32', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(1183): warning C4244: '+=': conversion from 'float64' to 'float', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(1186): warning C4244: '+=': conversion from 'float64' to 'float', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(1222): warning C4244: '=': conversion from 'double' to 'float32', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(1226): warning C4244: '=': conversion from 'double' to 'float32', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\kmeans_init\main.c(1385): warning C4018: '>': signed/unsigned mismatch
+  Generating Code...
+main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  kmeans_init.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\programs\kmeans_init\.\..\..\..\bin\Debug\Win32\kmeans_init.exe
+  kmeans_init.vcxproj -> .\..\..\..\bin\Debug\Win32/kmeans_init.pdb (Full PDB)

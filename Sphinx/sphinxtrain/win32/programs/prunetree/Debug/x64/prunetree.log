@@ -1,0 +1,6 @@
+﻿  parse_cmd_ln.c
+  main.c
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\prunetree\main.c(351): warning C4244: 'function': conversion from 'float64' to 'float32', possible loss of data
+  Generating Code...
+  prunetree.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\programs\prunetree\.\..\..\..\bin\Debug\x64\prunetree.exe
+  prunetree.vcxproj -> .\..\..\..\bin\Debug\x64/prunetree.pdb (Full PDB)

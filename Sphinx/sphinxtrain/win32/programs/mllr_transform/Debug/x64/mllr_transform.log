@@ -1,0 +1,5 @@
+﻿  parse_cmd_ln.c
+  main.c
+  Generating Code...
+  mllr_transform.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\programs\mllr_transform\.\..\..\..\bin\Debug\x64\mllr_transform.exe
+  mllr_transform.vcxproj -> .\..\..\..\bin\Debug\x64/mllr_transform.pdb (Full PDB)

@@ -1,0 +1,14 @@
+﻿  main.c
+..\..\..\src\programs\bldtree\main.c(82): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\programs\bldtree\main.c(91): warning C4244: '=': conversion from 'double' to 'float32', possible loss of data
+..\..\..\src\programs\bldtree\main.c(92): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\programs\bldtree\main.c(96): warning C4018: '<': signed/unsigned mismatch
+..\..\..\src\programs\bldtree\main.c(328): warning C4244: '=': conversion from 'double' to 'float32', possible loss of data
+..\..\..\src\programs\bldtree\main.c(339): warning C4244: '*=': conversion from 'float64' to 'float32', possible loss of data
+..\..\..\src\programs\bldtree\main.c(398): warning C4244: '=': conversion from 'float64' to 'float32', possible loss of data
+..\..\..\src\programs\bldtree\main.c(491): warning C4244: '/=': conversion from 'float64' to 'float32', possible loss of data
+..\..\..\src\programs\bldtree\main.c(492): warning C4244: '=': conversion from 'float64' to 'float32', possible loss of data
+..\..\..\src\programs\bldtree\main.c(504): warning C4244: '=': conversion from 'float64' to 'float32', possible loss of data
+  parse_cmd_ln.c
+  Generating Code...
+  bldtree.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\programs\bldtree\.\..\..\..\bin\Release\Win32\bldtree.exe

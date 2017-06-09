@@ -1,0 +1,56 @@
+﻿  parse_cmd_ln.c
+  mk_mdef_gen.c
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(174): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(306): warning C4018: '>': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(293): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(488): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(670): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(671): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(672): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(673): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(710): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(732): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(733): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(734): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(735): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(914): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(919): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(920): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(921): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(922): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+  main.c
+  heap.c
+  hash.c
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\hash.c(93): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\hash.c(94): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\hash.c(95): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\hash.c(96): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\hash.c(164): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_mdef_gen\hash.c(230): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+  Generating Code...
+hash.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  mk_mdef_gen.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\programs\mk_mdef_gen\.\..\..\..\bin\Debug\Win32\mk_mdef_gen.exe
+  mk_mdef_gen.vcxproj -> .\..\..\..\bin\Debug\Win32/mk_mdef_gen.pdb (Full PDB)

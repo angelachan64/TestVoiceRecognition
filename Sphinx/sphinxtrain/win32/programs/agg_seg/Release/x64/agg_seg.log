@@ -1,0 +1,16 @@
+﻿  agg_all_seg.c
+..\..\..\src\programs\agg_seg\agg_all_seg.c(108): warning C4013: 'bio_fwrite' undefined; assuming extern returning int
+..\..\..\src\programs\agg_seg\agg_all_seg.c(150): warning C4018: '<': signed/unsigned mismatch
+  agg_phn_seg.c
+..\..\..\src\programs\agg_seg\agg_phn_seg.c(107): warning C4013: 'str2words' undefined; assuming extern returning int
+  agg_st_seg.c
+..\..\..\src\programs\agg_seg\agg_st_seg.c(246): warning C4018: '<': signed/unsigned mismatch
+  cnt_phn_seg.c
+  cnt_st_seg.c
+  main.c
+..\..\..\src\programs\agg_seg\main.c(231): warning C4244: '=': conversion from 'double' to 'mfcc_t', possible loss of data
+..\..\..\src\programs\agg_seg\main.c(236): warning C4244: '=': conversion from 'double' to 'mfcc_t', possible loss of data
+  mk_seg.c
+  parse_cmd_ln.c
+  Generating Code...
+  agg_seg.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\programs\agg_seg\.\..\..\..\bin\Release\x64\agg_seg.exe

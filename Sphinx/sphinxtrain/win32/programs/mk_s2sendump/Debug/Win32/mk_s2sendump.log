@@ -1,0 +1,26 @@
+﻿  senone.c
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_s2sendump\senone.c(122): warning C4018: '<': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_s2sendump\senone.c(134): warning C4018: '<': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_s2sendump\senone.c(164): warning C4018: '<': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_s2sendump\senone.c(166): warning C4018: '<': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_s2sendump\senone.c(171): warning C4018: '<': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_s2sendump\senone.c(177): warning C4018: '<': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_s2sendump\senone.c(186): warning C4018: '<': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_s2sendump\senone.c(190): warning C4018: '<': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_s2sendump\senone.c(260): warning C4018: '<': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_s2sendump\senone.c(265): warning C4018: '<': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_s2sendump\senone.c(293): warning C4018: '<': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_s2sendump\senone.c(298): warning C4018: '<': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_s2sendump\senone.c(307): warning C4244: 'function': conversion from 'float64' to 'float32', possible loss of data
+  parse_cmd_ln.c
+  mk_s2sendump.c
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_s2sendump\mk_s2sendump.c(121): warning C4018: '<': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_s2sendump\mk_s2sendump.c(142): warning C4018: '<': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_s2sendump\mk_s2sendump.c(152): warning C4018: '<': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_s2sendump\mk_s2sendump.c(157): warning C4018: '>': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_s2sendump\mk_s2sendump.c(240): warning C4018: '<': signed/unsigned mismatch
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mk_s2sendump\mk_s2sendump.c(247): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+mk_s2sendump.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  mk_s2sendump.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\programs\mk_s2sendump\.\..\..\..\bin\Debug\Win32\mk_s2sendump.exe
+  mk_s2sendump.vcxproj -> .\..\..\..\bin\Debug\Win32/mk_s2sendump.pdb (Full PDB)

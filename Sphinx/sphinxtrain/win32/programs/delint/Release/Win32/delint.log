@@ -1,0 +1,13 @@
+﻿  interp_fn.c
+..\..\..\src\programs\delint\interp_fn.c(103): warning C4244: '=': conversion from 'double' to 'float32', possible loss of data
+..\..\..\src\programs\delint\interp_fn.c(123): warning C4244: '=': conversion from 'float64' to 'float32', possible loss of data
+..\..\..\src\programs\delint\interp_fn.c(96): warning C4244: 'initializing': conversion from 'double' to 'float32', possible loss of data
+..\..\..\src\programs\delint\interp_fn.c(161): warning C4244: '=': conversion from 'double' to 'float32', possible loss of data
+..\..\..\src\programs\delint\interp_fn.c(196): warning C4244: '=': conversion from 'float64' to 'float32', possible loss of data
+..\..\..\src\programs\delint\interp_fn.c(198): warning C4244: '+=': conversion from 'float64' to 'float32', possible loss of data
+..\..\..\src\programs\delint\interp_fn.c(205): warning C4244: 'initializing': conversion from 'double' to 'float32', possible loss of data
+  main.c
+..\..\..\src\programs\delint\main.c(366): warning C4244: '=': conversion from 'float64' to 'float32', possible loss of data
+  parse_cmd_ln.c
+  Generating Code...
+  delint.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\programs\delint\.\..\..\..\bin\Release\Win32\delint.exe

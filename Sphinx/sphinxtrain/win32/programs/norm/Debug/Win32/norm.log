@@ -1,0 +1,6 @@
+﻿  parse_cmd_ln.c
+  main.c
+  Generating Code...
+main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  norm.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\programs\norm\.\..\..\..\bin\Debug\Win32\norm.exe
+  norm.vcxproj -> .\..\..\..\bin\Debug\Win32/norm.pdb (Full PDB)

@@ -1,0 +1,4 @@
+﻿  main.c
+  parse_cmd_ln.c
+  Generating Code...
+  mk_mllr_class.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\programs\mk_mllr_class\.\..\..\..\bin\Release\x64\mk_mllr_class.exe

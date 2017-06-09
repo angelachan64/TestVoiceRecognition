@@ -1,0 +1,5 @@
+﻿  main.c
+..\..\..\src\programs\mixw_interp\main.c(136): warning C4244: '=': conversion from 'double' to 'float32', possible loss of data
+  parse_cmd_ln.c
+  Generating Code...
+  mixw_interp.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\programs\mixw_interp\.\..\..\..\bin\Release\x64\mixw_interp.exe

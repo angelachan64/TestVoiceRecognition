@@ -1,0 +1,10 @@
+﻿  parse_cmd_ln.c
+  main.c
+  inc_densities.c
+  accum_wt_param.c
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\inc_comp\accum_wt_param.c(90): warning C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _access. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_io.h(439): note: see declaration of 'access'
+  Generating Code...
+accum_wt_param.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  inc_comp.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\programs\inc_comp\.\..\..\..\bin\Debug\Win32\inc_comp.exe
+  inc_comp.vcxproj -> .\..\..\..\bin\Debug\Win32/inc_comp.pdb (Full PDB)

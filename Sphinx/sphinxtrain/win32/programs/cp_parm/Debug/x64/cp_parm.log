@@ -1,0 +1,5 @@
+﻿  parse_cmd_ln.c
+  main.c
+  Generating Code...
+  cp_parm.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\programs\cp_parm\.\..\..\..\bin\Debug\x64\cp_parm.exe
+  cp_parm.vcxproj -> .\..\..\..\bin\Debug\x64/cp_parm.pdb (Full PDB)

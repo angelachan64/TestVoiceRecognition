@@ -1,0 +1,18 @@
+﻿  parse_cmd_ln.c
+  mk_seg.c
+  main.c
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\agg_seg\main.c(231): warning C4244: '=': conversion from 'double' to 'mfcc_t', possible loss of data
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\agg_seg\main.c(236): warning C4244: '=': conversion from 'double' to 'mfcc_t', possible loss of data
+  cnt_st_seg.c
+  cnt_phn_seg.c
+  agg_st_seg.c
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\agg_seg\agg_st_seg.c(246): warning C4018: '<': signed/unsigned mismatch
+  agg_phn_seg.c
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\agg_seg\agg_phn_seg.c(107): warning C4013: 'str2words' undefined; assuming extern returning int
+  agg_all_seg.c
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\agg_seg\agg_all_seg.c(108): warning C4013: 'bio_fwrite' undefined; assuming extern returning int
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\agg_seg\agg_all_seg.c(150): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+agg_all_seg.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  agg_seg.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\programs\agg_seg\.\..\..\..\bin\Debug\Win32\agg_seg.exe
+  agg_seg.vcxproj -> .\..\..\..\bin\Debug\Win32/agg_seg.pdb (Full PDB)

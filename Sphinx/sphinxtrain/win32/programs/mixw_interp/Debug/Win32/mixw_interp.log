@@ -1,0 +1,7 @@
+﻿  parse_cmd_ln.c
+  main.c
+c:\users\angela\documents\github\testvoicerecognition\sphinx\sphinxtrain\src\programs\mixw_interp\main.c(136): warning C4244: '=': conversion from 'double' to 'float32', possible loss of data
+  Generating Code...
+main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  mixw_interp.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\programs\mixw_interp\.\..\..\..\bin\Debug\Win32\mixw_interp.exe
+  mixw_interp.vcxproj -> .\..\..\..\bin\Debug\Win32/mixw_interp.pdb (Full PDB)

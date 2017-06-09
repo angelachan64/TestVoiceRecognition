@@ -1,0 +1,6 @@
+﻿  parse_cmd_ln.c
+  main.c
+  Generating Code...
+main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  tiestate.vcxproj -> C:\Users\Angela\Documents\GitHub\TestVoiceRecognition\Sphinx\sphinxtrain\win32\programs\tiestate\.\..\..\..\bin\Debug\Win32\tiestate.exe
+  tiestate.vcxproj -> .\..\..\..\bin\Debug\Win32/tiestate.pdb (Full PDB)
