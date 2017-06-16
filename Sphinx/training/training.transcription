@@ -49,3 +49,32 @@
 <s> use a plum pen </s> (49)
 <s> change the pen to orange </s> (50)
 <s> gray pen </s> (51)
+<s> clear the screen </s> (52)
+<s> use a red pen </s> (53)
+<s> repeat the following commands 5 times </s> (54)
+<s> move forward one hundred fifty steps </s> (55)
+<s> turn right one hundred forty four degrees </s> (56)
+<s> end the repeat </s> (57)
+<s> clear the screen </s> (58)
+<s> use a red pen </s> (59)
+<s> repeat the following commands 7 times </s> (60)
+<s> move forward one hundred fifty steps </s> (61)
+<s> turn right one hundred fifty four degrees </s> (62)
+<s> end the repeat </s> (63)
+<s> clear the screen
+repeat the following four times
+go forward one hundred fifty steps
+turn right
+end the repeat </s> (64)
+<s> clear the screen
+repeat the following five times
+go forward one hundred fifty steps
+turn right seventy two degrees
+end the repeat </s> (65)
+<s> clear the screen
+repeat the following six times
+go forward one hundred fifty steps
+turn right sixty degrees
+end the repeat </s> (66)
+<s> clear the screen use a red pen repeat the following commands five times move forward one hundred fifty steps turn right one hundred forty four degrees end the repeat </s> (67)
+<s> clear the screen use a red pen repeat the following commands seven times move forward one hundred fifty steps turn right one hundred fifty four degrees end the repeat </s> (68)
