@@ -9,4 +9,3 @@ Interested in:
 1. Kaldi
 2. Theano (?)
 3. TensorFlow (must switch to Python 3.5)
-4. Caffe (must get more familiar with C++)
