@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter.ttk import *
 import turtle
+import interpreter
 
 class interface(Frame):
     def __init__(self, parent):
@@ -37,7 +38,7 @@ class interface(Frame):
         # Display past commands
         frame4 = Frame(frame3)
         frame4.pack(side=TOP, fill=X)
-        text_box = Text(frame4, height=35, width=30, state="disabled")
+        text_box = Text(frame4, height=35, width=33, state="disabled")
         text_box.pack(side=LEFT)
         text_box.tag_configure('tag-right', justify='right')
         scroll_bar = Scrollbar(frame4)
@@ -45,11 +46,19 @@ class interface(Frame):
         scroll_bar.config(command=text_box.yview)
         text_box.config(yscrollcommand=scroll_bar.set)
 
+        text_box.configure(state="normal")
+        text_box.insert("end","Hello! Welcome to PiE LOGO!\n")
+        text_box.insert("end","Please type in a command and\nthe turtle on the screen will\nfollow your instructions.\n")
+        text_box.insert("end","Please input one command at\na time!\n")
+        text_box.configure(state="disabled")
+
         # Command entry
         frame5 = Frame(frame3)
         frame5.pack(side=BOTTOM, fill=X)
         text_input = Entry(frame5, width=33)
+        text_input.bind("<Return>",(lambda event: command_entry(text_input.get())))
         text_input.pack(side=LEFT)
+        text_input.focus()
         button_enter = Button(frame5, text="Submit", width=7, command=lambda:command_entry(text_input.get()))
         button_enter.pack(side=RIGHT)
 
@@ -57,6 +66,10 @@ class interface(Frame):
             text_box.configure(state="normal")
             text_box.insert("end", "%s\n" % command, 'tag-right')
             text_box.configure(state="disabled")
+            interpreter.interpret(turt,text_box,command)
+            text_input.delete(0,'end')
+            text_input.focus()
+            
 
     def center(self):
         w = 900
