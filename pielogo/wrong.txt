@@ -1,0 +1,213 @@
+draw a triangle edge 100
+draw a line of 100 steps
+repeat the last two commands for 3 times
+forward 100
+forward 100
+can you draw a line of 100 steps
+can you draw a line 100
+can you draw a line of 100 s
+can you draw a line 100
+can you draw a line of 100
+can you draw a line of 100 s
+draw a diamond edge 4
+can you draw a square of 100 in edge
+draw me a square egde is 100 steps
+let's draw a triangle
+draw a triangle please
+draw a line of 100 s
+forward
+can you draw a diamond the edge is 100
+can you draw a diamond edge 100
+draw a diamond edge 100
+draw a diamond edge 100
+draw a diamond edge 100 steps
+draw a diamond in 100 
+draw a diamond edge is 100
+draw a dimond edge is 100
+draw a diamond edge 100
+repeat the last command for 17 times
+let the pen back to the paper
+let the pen be back to the paper
+draw a square of 100 feet edge
+draw a square 100 feet edge
+draw a square 100 edge
+make a right turn of 90 degrees
+make a right turn
+good,quit
+go 5 meters
+go 5 steps
+keep on for 200 steps
+how about 40 steps
+move forward
+draw a trangle
+3,4,5
+draw a rectangle
+4
+turn right for 45 degree
+turn around for 45 degree
+go ahead for 50 
+go ahead for 50 steps
+make a u turn
+eat some bananas
+write triangle on the shape
+write the text Triangle on the shape
+write the text triangle on the screen
+write Triangle on the screen
+draw a line of 100 steps
+draw a line 100 steps
+draw a line of 100 steps
+draw a line of 100 meters
+draw a line of 100 meters
+draw a line of 100 steps
+draw a line 100 steps
+line 100 steps
+  [r'(.*)line(.*) (\d*)(.*)',
+  ["turtle.fd (%3)"],["Okay, Let's draw a line with length %3!     "]],
+draw a line of 100 steps
+draw a line 100 steps
+draw a line 100 steps
+draw a line 100 steps
+make a right turn
+make a right turn of 100 steps
+make a right turn of 100
+make a right turn of 100
+make a right turn 100 steps
+make a right turn
+make a left turn
+make a right turn
+make a right turn
+turn around
+draw me a square egde is 100 steps
+turn 100 degrees
+right
+left
+right
+left
+fo forward
+move forward
+turight
+run right
+the last 2 steps ar wrong
+forward 70
+forward 80
+forward 200
+back 10
+forward 180
+forward 300
+forward 30
+pen uo
+forward 150
+forward 250
+forward 200
+turn right 
+forward 150
+forward 100
+repeaat the last 1 command for 2 times
+repeat the last commands for 2 times
+foward 200 steps
+first move ahead turtle for 200 steps
+move ahead for 200 steps turtle
+turn left 
+repeat lshape for 2 time
+repeat 150 s
+cool,let's quit
+go 150 steps
+okay radius is 80 steps
+keep doing this for 3 more times
+no
+nope
+draw a ball
+turn right 
+turn around
+go forwrd 150 steps
+go forward 200
+forward 200
+go foreward 200
+go foreward 200 units
+go forward 600
+draw a sphere
+quick
+repeat
+what word 100 steps
+Google word 100 steps
+Hornet
+trouble
+quilt
+Goldford 100 steps
+quick
+can I quit
+turn up
+Ford 200
+Ford 100 steps
+Ford 100 steps
+Ford 200 steps
+Google for 200 steps
+quick
+quiff
+quilt
+go Ford 150 steps
+Ford 300 steps
+Ford 300 steps
+turn left at 90 degree
+turn left at 90 degree
+Quint
+go forward
+go forward
+torrid
+torrid
+toya wright 30 degree
+toya wright 30 degree
+Ford 150 steps
+Ford 200 steps
+repeat last tattoo commands for 3 times
+can you repeat last tattoo commands for 3 times
+can you let a pencial seca
+futuristic car
+please let the Penn reporter
+Quizlet to the Penn Bar Boulder
+can you let the Pembina border
+let's quit
+forward
+can you repeat that last a full comment
+can you repeat last full comment
+Tannerite
+the right 10 degree
+pyrite
+pyrite
+let's quit
+turn left foot 5045 degrees
+acquit
+time left
+are all the 150 steps
+how far will 15 steps
+cut
+what
+what
+the movie hit 150 steps
+coupon for 150 steps
+quit quit
+are left
+turn up
+cut
+a tarnished
+new Ford 150 steps
+art
+quick
+repeat lassitude
+can you repeat labs
+Pete all commands
+quick
+quick
+turn left at 45 degrees
+repeat or
+repeat order comments
+repeat off
+repeat of the comment
+repeat art
+repeat whole comment
+forward 150
+turn left 
+turn right 
+turn left 
+forward 150
+forwar 150 steps
