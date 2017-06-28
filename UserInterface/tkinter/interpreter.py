@@ -23,7 +23,7 @@ def interpret(turt,text_box,command):
             text_box.configure(state="disabled")
     
     # Moving forward
-    elif "go" in command_array or "forward" in command_array or "forwards" in command_array:
+    elif "go" in command_array or "forward" in command_array or "forwards" in command_array or "move" in command_array:
         steps = 0
         for item in command_array:
             if item.isdigit():
@@ -40,7 +40,7 @@ def interpret(turt,text_box,command):
             text_box.configure(state="disabled")
 
     # Turn a certain number of degrees
-    elif "turn" in command_array:
+    elif "rotate" in command_array or "turn" in command_array or "degrees" in command_array:
         degrees = 90
         for item in command_array:
             if item.isdigit():
@@ -57,7 +57,7 @@ def interpret(turt,text_box,command):
                 text_box.configure(state="normal")
                 text_box.insert("end","Okay! Turning left %d degrees!\n" % degrees)
                 text_box.configure(state="disabled")
-
+                
     elif "clear" in command_array:
         text_box.configure(state="normal")
         text_box.insert("end","Okay! Clearing the screen!\n")

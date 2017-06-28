@@ -1,5 +1,11 @@
-from tkinter import *
-from tkinter.ttk import *
+try:
+    from Tkinter import *
+except ImportError:
+    from tkinter import *
+try:
+    import ttk
+except ImportError:
+    from tkinter.ttk import *
 import turtle
 import interpreter
 
