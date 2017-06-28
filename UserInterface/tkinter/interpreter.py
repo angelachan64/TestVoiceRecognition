@@ -5,8 +5,25 @@ def interpret(turt,text_box,command):
     command = command.lower()
     command_array = command.split()
 
+    # Moving backward
+    if "backward" in command_array or "backwards" in command_array:
+        steps = 0;
+        for item in command_array:
+            if item.isdigit():
+                steps = int(item)
+                break
+        if steps != 0:
+            turt.backward(steps)
+            text_box.configure(state="normal")
+            text_box.insert("end","Okay! Moving backward %d steps!\n" % steps)
+            text_box.configure(state="disabled")
+        else:
+            text_box.configure(state="normal")
+            text_box.insert("end","Please enter a valid number\nof steps to move backward.\n")
+            text_box.configure(state="disabled")
+    
     # Moving forward
-    if "go" in command_array or "forward" in command_array:
+    elif "go" in command_array or "forward" in command_array or "forwards" in command_array:
         steps = 0
         for item in command_array:
             if item.isdigit():
