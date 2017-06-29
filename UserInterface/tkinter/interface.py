@@ -116,6 +116,8 @@ class interface(Frame):
                                 yn_repeat=interpreter.interpret(self,turt,text_box,"north")
                             elif "down" in command_array or "south" in command_array:
                                 yn_repeat=interpreter.interpret(self,turt,text_box,"south")
+                            else:
+                                yn_repeat=interpreter.interpret(self,turt,text_box,"face")
                             
             else:
                 yn_repeat = interpreter.interpret(self,turt,text_box,command)
