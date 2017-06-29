@@ -9,6 +9,8 @@ except ImportError:
 import turtle
 import interpreter
 
+yn_repeat=['n',0,0]
+# repeat, move, turn
 class interface(Frame):
     def __init__(self, parent):
         Frame.__init__(self, parent)
@@ -62,19 +64,37 @@ class interface(Frame):
         frame5 = Frame(frame3)
         frame5.pack(side=BOTTOM, fill=X)
         text_input = Entry(frame5, width=33)
-        text_input.bind("<Return>",(lambda event: command_entry(text_input.get())))
+        text_input.bind("<Return>",(lambda event: self.command_entry(text_box,text_input,turt,yn_repeat,text_input.get())))
         text_input.pack(side=LEFT)
         text_input.focus()
-        button_enter = Button(frame5, text="Submit", width=7, command=lambda:command_entry(text_input.get()))
+        button_enter = Button(frame5, text="Submit", width=7, command=lambda:self.command_entry(text_box,text_input,turt,yn_repeat,text_input.get()))
         button_enter.pack(side=RIGHT)
 
-        def command_entry(command):
+    def command_entry(self,text_box,text_input,turt,yn_repeat1,command):
+        global yn_repeat
+        print(yn_repeat)
+        if len(command.split()) != 0:
             text_box.configure(state="normal")
             text_box.insert("end", "%s\n" % command, 'tag-right')
             text_box.configure(state="disabled")
-            interpreter.interpret(turt,text_box,command)
-            text_input.delete(0,'end')
-            text_input.focus()
+            if yn_repeat1[0]=='y':
+                command.lower()
+                command_array = command.split()
+                num = 0
+                for item in command_array:
+                    if item.isdigit():
+                        num = int(item)
+                for item in yn_repeat1[1:]:
+                    if item != 0:
+                        if yn_repeat1.index(item) == 1:
+                            if item == 1:
+                                yn_repeat = interpreter.interpret(self,turt,text_box,"forward %d" % num)
+                            elif item == 2:
+                                yn_repeat = interpreter.interpret(self,turt,text_box,"backward %d" % num)
+            else:
+                yn_repeat = interpreter.interpret(self,turt,text_box,command)
+        text_input.delete(0,'end')
+        text_input.focus()
             
 
     def center(self):
