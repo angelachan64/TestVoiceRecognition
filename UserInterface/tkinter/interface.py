@@ -107,6 +107,15 @@ class interface(Frame):
                                     yn_repeat=interpreter.interpret(self,turt,text_box,"turn left %d" % item)
                                 else:
                                     yn_repeat=interpreter.interpret(self,turt,text_box,"turn left")
+                        elif yn_repeat1.index(item)==4:
+                            if "right" in command_array or "east" in command_array:
+                                yn_repeat=interpreter.interpret(self,turt,text_box,"east")
+                            elif "left" in command_array or "west" in command_array:
+                                yn_repeat=interpreter.interpret(self,turt,text_box,"west")
+                            elif "up" in command_array or "north" in command_array:
+                                yn_repeat=interpreter.interpret(self,turt,text_box,"north")
+                            elif "down" in command_array or "south" in command_array:
+                                yn_repeat=interpreter.interpret(self,turt,text_box,"south")
                             
             else:
                 yn_repeat = interpreter.interpret(self,turt,text_box,command)
