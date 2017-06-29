@@ -9,7 +9,7 @@ except ImportError:
 import turtle
 import interpreter
 
-yn_repeat=['n',0,0]
+yn_repeat=['n',0,0,0]
 # repeat, move, turn
 class interface(Frame):
     def __init__(self, parent):
@@ -91,6 +91,23 @@ class interface(Frame):
                                 yn_repeat = interpreter.interpret(self,turt,text_box,"forward %d" % num)
                             elif item == 2:
                                 yn_repeat = interpreter.interpret(self,turt,text_box,"backward %d" % num)
+                        elif yn_repeat1.index(item)==2:
+                            if item==1:
+                                yn_repeat=interpreter.interpret(self,turt,text_box,"turn right %d" % num)
+                            elif item==2:
+                                yn_repeat=interpreter.interpret(self,turt,text_box,"turn left %d" % num)
+                        elif yn_repeat1.index(item)==3:
+                            if "right" in command_array:
+                                if item != -1:
+                                    yn_repeat=interpreter.interpret(self,turt,text_box,"turn right %d" % item)
+                                else:
+                                    yn_repeat=interpreter.interpret(self,turt,text_box,"turn right")
+                            elif "left" in command_array:
+                                if item != -1:
+                                    yn_repeat=interpreter.interpret(self,turt,text_box,"turn left %d" % item)
+                                else:
+                                    yn_repeat=interpreter.interpret(self,turt,text_box,"turn left")
+                            
             else:
                 yn_repeat = interpreter.interpret(self,turt,text_box,command)
         text_input.delete(0,'end')
