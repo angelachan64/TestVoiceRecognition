@@ -67,28 +67,30 @@ def border_movement(turt, command, num_steps):
                 turt_angle -= 180
         new_x = turt_x + (math.cos(math.radians(turt_angle)) * num_steps)
         new_y = turt_y + (math.sin(math.radians(turt_angle)) * num_steps)
-        if math.fabs(new_x) <= 300 and math.fabs(new_y) <= 300:
+        if math.fabs(new_x) <= 301 and math.fabs(new_y) <= 301:
             if command == "backwards":
                 turt.back(num_steps)
             elif command == "forwards":
                 turt.fd(num_steps)
-        elif math.fabs(new_x) > 300 and math.fabs(new_y) < 300:
+        elif math.fabs(new_x) > 301 and math.fabs(new_y) < 301:
             print("Too far (x-axis)")
-            new_steps=(num_steps*(300-math.fabs(turt_x)))/(math.fabs(new_x)-math.fabs(turt_x))
+            new_steps=(num_steps*(301-math.fabs(turt_x)))/(math.fabs(new_x)-math.fabs(turt_x))
             if command=="backwards":
                 turt.back(new_steps)
             elif command=="forwards":
                 turt.fd(new_steps)
-        elif math.fabs(new_y) > 300 and math.fabs(new_x) < 300:
+            turt.goto(turt.xcor(), new_y)
+        elif math.fabs(new_y) > 301 and math.fabs(new_x) < 301:
             print("Too far (y-axis)")
-            new_steps=(num_steps*(300-math.fabs(turt_y)))/(math.fabs(new_y)-math.fabs(turt_y))
+            new_steps=(num_steps*(301-math.fabs(turt_y)))/(math.fabs(new_y)-math.fabs(turt_y))
             if command=="backwards":
                 turt.back(new_steps)
             elif command=="forwards":
                 turt.fd(new_steps)
+            turt.goto(new_x, turt.ycor())
         else:
             print("Too far!!!!")    
-
+                
 # Move backwards
 def backward(command_array,text_box,code_box,turt):
     steps = 0;
