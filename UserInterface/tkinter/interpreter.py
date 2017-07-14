@@ -55,6 +55,40 @@ def interpret(program,turt,text_box,command,code_box):
 
     return ['n', 0, 0, 0, 0,0]
 
+def border_movement(turt, command, num_steps):
+    turt_x = turt.xcor()
+    turt_y = turt.ycor()
+    turt_angle = turt.heading()
+    if command != "circle":
+        if command == "backwards":
+            if turt_angle < 180:
+                turt_angle += 180
+            else:
+                turt_angle -= 180
+        new_x = turt_x + (math.cos(math.radians(turt_angle)) * num_steps)
+        new_y = turt_y + (math.sin(math.radians(turt_angle)) * num_steps)
+        if math.fabs(new_x) <= 300 and math.fabs(new_y) <= 300:
+            if command == "backwards":
+                turt.back(num_steps)
+            elif command == "forwards":
+                turt.fd(num_steps)
+        elif math.fabs(new_x) > 300 and math.fabs(new_y) < 300:
+            print("Too far (x-axis)")
+            new_steps=(num_steps*(300-math.fabs(turt_x)))/(math.fabs(new_x)-math.fabs(turt_x))
+            if command=="backwards":
+                turt.back(new_steps)
+            elif command=="forwards":
+                turt.fd(new_steps)
+        elif math.fabs(new_y) > 300 and math.fabs(new_x) < 300:
+            print("Too far (y-axis)")
+            new_steps=(num_steps*(300-math.fabs(turt_y)))/(math.fabs(new_y)-math.fabs(turt_y))
+            if command=="backwards":
+                turt.back(new_steps)
+            elif command=="forwards":
+                turt.fd(new_steps)
+        else:
+            print("Too far!!!!")    
+
 # Move backwards
 def backward(command_array,text_box,code_box,turt):
     steps = 0;
@@ -71,7 +105,8 @@ def backward(command_array,text_box,code_box,turt):
         code_box.insert("end","%d: back(%d)\n" % (line_number,steps))
         code_box.configure(state="disabled")
         line_number = line_number + 1
-        turt.backward(steps)
+        border_movement(turt, "backwards", steps)
+        #turt.backward(steps)
     else:
         text_box.configure(state="normal")
         text_box.insert("end","Please enter a valid number\nof steps to move backward.\n")
@@ -95,7 +130,8 @@ def forward(command_array,text_box,code_box,turt):
         code_box.insert("end","%d: fd(%d)\n" % (line_number,steps))
         code_box.configure(state="disabled")
         line_number = line_number + 1
-        turt.fd(steps)
+        border_movement(turt, "forwards", steps)
+        #turt.fd(steps)
     else:
         text_box.configure(state="normal")
         text_box.insert("end","Please enter a valid number\nof steps to move forward.\n")

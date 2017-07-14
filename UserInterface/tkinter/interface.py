@@ -85,6 +85,7 @@ class interface(Frame):
     def command_entry(self,text_box,text_input,turt,yn_repeat1,command,code_box):
         global yn_repeat
         #print(yn_repeat)
+        #print(turt.position())
         if len(command.split()) != 0:
             text_box.configure(state="normal")
             text_box.insert("end", "%s\n" % command, 'tag-right')
